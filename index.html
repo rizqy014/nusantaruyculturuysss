@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusantara Culture – Rumah Adat Indonesia</title>
+    <link rel="stylesheet" href="STYLE_ENHANCED.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="brand">
+            <h1>🏛️ Nusantara</h1>
+        </div>
+        <div class="nav-actions">
+            <a href="#" class="nav-link" onclick="document.querySelector('.search-input').focus(); return false;">Cari</a>
+            <a href="#footer" class="nav-link">Tentang</a>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+        <video id="header-video" class="header-video" autoplay muted loop playsinline poster="Foto nih foto/Rumha.jpeg">
+            <source src="Indonesia-hidden.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        <h1> Nusantara Culture</h1>
+        <p>Eksplor Keindahan Rumah Adat Indonesia</p>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <section class="container">
+        <h2 class="title">Rumah Adat Nusantara</h2>
+
+        <div class="search-container" aria-label="Pencarian rumah adat">
+            <input id="searchInput" class="search-input" type="search" placeholder="Cari nama rumah adat atau provinsi..." aria-label="Cari">
+            <button id="searchBtn" class="maps-button" type="button">Cari</button>
+            <div id="searchResults" class="search-results" role="listbox" aria-hidden="true"></div>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="Foto nih foto/Rumha.jpeg" alt="Rumah Gadang">
+                <h3>Rumah Gadang</h3>
+                <p>Sumatera Barat</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Sumatera Barat</p>
+                    <p><strong>Deskripsi:</strong> Rumah adat suku Minangkabau berbentuk seperti tanduk kerbau sebagai simbol kemenangan.</p>
+                    <p><strong>Ciri-ciri:</strong> Atap gonjong, rumah panggung, banyak ukiran khas Minang.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Gadang+Sumatera+Barat" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/TONGKONAN.jpg" alt="Rumah Tongkonan">
+                <h3>Rumah Tongkonan</h3>
+                <p>Sulawesi Selatan</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Toraja, Sulawesi Selatan</p>
+                    <p><strong>Deskripsi:</strong> Rumah adat berbentuk perahu yang menyimbolkan hubungan leluhur Toraja.</p>
+                    <p><strong>Ciri-ciri:</strong> Atap melengkung, ukiran warna-warni, rumah panggung.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Tongkonan+Toraja+Sulawesi+Selatan" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/JOGLO.jpg" alt="Rumah Joglo">
+                <h3>Rumah Joglo</h3>
+                <p>Jawa Tengah</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Jawa Tengah</p>
+                    <p><strong>Deskripsi:</strong> Rumah adat Jawa dengan filosofi keseimbangan dan kehidupan yang teratur.</p>
+                    <p><strong>Ciri-ciri:</strong> Tiang saka guru, atap bertingkat, ruangan luas.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Joglo+Jawa+Tengah" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/HONAI.jpg" alt="Rumah Honai">
+                <h3>Rumah Honai</h3>
+                <p>Papua</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Papua</p>
+                    <p><strong>Deskripsi:</strong> Rumah bundar kecil dari kayu dan jerami untuk menjaga suhu tetap hangat.</p>
+                    <p><strong>Ciri-ciri:</strong> Tidak berjendela, pintu kecil, atap jerami tebal.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Honai+Papua" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/rumah aceh.webp" alt="Rumah Aceh">
+                <h3>Rumah Aceh</h3>
+                <p>Aceh</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Aceh Besar</p>
+                    <p><strong>Deskripsi:</strong> Rumah panggung tradisional Aceh.</p>
+                    <p><strong>Ciri-ciri:</strong> Bertiang tinggi, tangga di depan, ukiran khas Aceh.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Aceh+Aceh+Besar" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/BOLON.jpg" alt="Rumah Bolon">
+                <h3>Rumah Bolon</h3>
+                <p>Sumatra Utara</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah adat Batak Toba.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Bolon+Sumatera+Utara" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/WhatsApp Image 2025-12-11 at 07.50.51.jpeg" alt="Rumah Melayu Selaso Jatuh Kembar">
+                <h3>Rumah Melayu Selaso Jatuh Kembar</h3>
+                <p>Riau</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah Melayu khas Riau, berbalai ganda.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Melayu+Selaso+Jatuh+Kembar+Riau" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/panggung2.jpg" alt="Rumah Panggung Kajang Lako">
+                <h3>Rumah Panggung Kajang Lako</h3>
+                <p>Jambi</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah tradisional Jambi, panggung tinggi.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Panggung+Kajang+Lako+Jambi" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/limas.jpg" alt="Rumah Limas">
+                <h3>Rumah Limas</h3>
+                <p>Sumatera Selatan</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah bangsawan Palembang, bertingkat.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Limas+Palembang+Sumatera+Selatan" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/belitung.jpg" alt="Rumah Panggung Belitung">
+                <h3>Rumah Panggung Belitung</h3>
+                <p>Bangka Belitung</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah sederhana dari kayu menyesuaikan pesisir.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Panggung+Belitung+Bangka+Belitung" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/bubungan lima.jpg" alt="Rumah Bumbungan Lima">
+                <h3>Rumah Bumbungan Lima</h3>
+                <p>Bengkulu</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah adat Serawai dengan atap lima sisi.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Bumbungan+Lima+Bengkulu" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/sesat.jpg" alt="Rumah Nuwo Sesat">
+                <h3>Rumah Nuwo Sesat</h3>
+                <p>Lampung</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah adat untuk musyawarah, panggung besar.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Nuwo+Sesat+Lampung" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/KEBAYA.jpg" alt="Rumah Kebaya">
+                <h3>Rumah Kebaya</h3>
+                <p>DKI Jakarta</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah Betawi, teras luas dan atap khas.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Kebaya+DKI+Jakarta" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/kesepuhan.jpg" alt="Rumah Kesepuhan Cirebon">
+                <h3>Rumah Kesepuhan Cirebon</h3>
+                <p>Jawa Barat</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah tradisional Sunda, atap melebar.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Kesepuhan+Cirebon+Jawa+Barat" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/baduy.jpg" alt="Rumah Baduy">
+                <h3>Rumah Baduy</h3>
+                <p>Banten</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah adat Baduy, dinding bambu dan atap ijuk.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Baduy+Banten" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/gapura candi.jpg" alt="Rumah Gapura Candi Bentar">
+                <h3>Rumah Gapura Candi Bentar</h3>
+                <p>Bali</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah tradisional Bali dengan pekarangan bersekat.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Gapura+Candi+Bentar+Bali" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/bale.jpg" alt="Rumah Bale Sumbawa">
+                <h3>Rumah Bale Sumbawa</h3>
+                <p>Nusa Tenggara Barat</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah Suku Sasak, bale lumbung untuk menyimpan padi.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Bale+Sumbawa+Nusa+Tenggara+Barat" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/musalaki.jpg" alt="Rumah Musalaki">
+                <h3>Rumah Musalaki</h3>
+                <p>Nusa Tenggara Timur</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah adat Flores, atap tinggi kerucut.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Musalaki+Flores+Nusa+Tenggara+Timur" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/panjang.jpg" alt="Rumah Panjang">
+                <h3>Rumah Panjang</h3>
+                <p>Kalimantan Barat</p>
+                <div class="card-description">
+                    <p><strong>Deskripsi:</strong> Rumah suku Dayak, sangat panjang dan panggung tinggi.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Panjang+Kalimantan+Barat" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/banjar tinggi.jpg" alt="Rumah Banjar Bumbungan Tinggi">
+                <h3>Rumah Banjar Bumbungan Tinggi</h3>
+                <p>Kalimantan Selatan</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Kalimantan Selatan</p>
+                    <p><strong>Deskripsi:</strong> Rumah adat suku Banjar dengan atap tinggi.</p>
+                    <p><strong>Ciri:</strong> Atap menonjol, ornamen khas.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Banjar+Bumbungan+Tinggi+Kalimantan+Selatan" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/lamin.jpg" alt="Rumah Lamin">
+                <h3>Rumah Lamin</h3>
+                <p>Kalimantan Timur</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Kalimantan Timur</p>
+                    <p><strong>Deskripsi:</strong> Rumah panjang suku Dayak.</p>
+                    <p><strong>Ciri:</strong> Ukiran warna-warni dan tiang hias.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Lamin+Kalimantan+Timur" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/baloy.jpg" alt="Rumah Baloy">
+                <h3>Rumah Baloy</h3>
+                <p>Kalimantan Utara</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Kalimantan Utara</p>
+                    <p><strong>Deskripsi:</strong> Rumah tradisional suku Tidung.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Baloy+Kalimantan+Utara" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/welewangko.jpg" alt="Rumah Welewangko">
+                <h3>Rumah Welewangko</h3>
+                <p>Sulawesi Utara</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Sulawesi Utara</p>
+                    <p><strong>Deskripsi:</strong> Rumah tradisional Minahasa.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Welewangko+Minahasa+Sulawesi+Utara" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/tambi.jpg" alt="Rumah Tambi">
+                <h3>Rumah Tambi</h3>
+                <p>Sulawesi Tengah</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Sulawesi Tengah</p>
+                    <p><strong>Deskripsi:</strong> Rumah suku Kaili dengan atap khas.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Tambi+Sulawesi+Tengah" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/buton.jpg" alt="Rumah Buton">
+                <h3>Rumah Buton</h3>
+                <p>Sulawesi Tenggara</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Sulawesi Tenggara</p>
+                    <p><strong>Deskripsi:</strong> Rumah Sultan Buton, tradisi istana.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Buton+Sulawesi+Tenggara" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/dulohupa.jpg" alt="Rumah Dulohupa">
+                <h3>Rumah Dulohupa</h3>
+                <p>Gorontalo</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Gorontalo</p>
+                    <p><strong>Deskripsi:</strong> Balai musyawarah Gorontalo.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Dulohupa+Gorontalo" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/boyang.jpg" alt="Rumah Boyang Bandar">
+                <h3>Rumah Boyang Bandar</h3>
+                <p>Sulawesi Barat</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Sulawesi Barat</p>
+                    <p><strong>Deskripsi:</strong> Rumah suku Mandar.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Boyang+Bandar+Mandar+Sulawesi+Barat" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/BAILEO.jpg" alt="Rumah Baileo">
+                <h3>Rumah Baileo</h3>
+                <p>Maluku</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Maluku</p>
+                    <p><strong>Deskripsi:</strong> Balai adat Maluku.</p>
+                    <a href="https://www.google.com/maps/search/Rumah+Baileo+Maluku" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Foto nih foto/kaki seribu.jpg" alt="Rumah Kaki Seribu">
+                <h3>Rumah Kaki Seribu</h3>
+                <p>Papua Barat</p>
+                <div class="card-description">
+                    <p><strong>Daerah:</strong> Papua Barat</p>
+                    <p><strong>Deskripsi:</strong> Rumah tradisional suku Arfak dengan banyak tiang.</p>
+                    <p><strong>Ciri:</strong>Banyak tiang seperti kaki seribu.
+                    <p><strong>Contoh unik:</strong>Panggung tinggi di daerah pegunungan.</p> 
+                    <a href="https://www.google.com/maps/search/Rumah+Kaki+Seribu+Papua+Barat" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer" role="contentinfo">
+        <p>&copy; 2025 <strong>Nusantara Culture</strong> – Melestarikan Warisan Rumah Adat Indonesia</p>
+        <p style="font-size: 0.9rem; margin-top: 8px; opacity: 0.9;">Jelajahi keindahan arsitektur tradisional dari 34 provinsi Indonesia</p>
+    </footer>
+
+    <!-- MAP MODAL -->
+    <div id="mapModal" class="map-modal" role="dialog" aria-labelledby="mapModalTitle" aria-hidden="true">
+        <div class="map-modal-content">
+            <div class="map-modal-header">
+                <h4 id="mapModalTitle">Peta Lokasi</h4>
+                <button id="mapModalClose" class="map-modal-close" aria-label="Tutup peta">&times;</button>
+            </div>
+            <iframe id="mapModalIframe" class="map-modal-iframe" title="Google Maps embed"></iframe>
+            <div class="map-modal-footer">
+                <span class="coords" id="mapModalCoords">—</span>
+                <div class="actions">
+                    <a id="mapModalOpenBtn" href="#" target="_blank" class="maps-button">Buka di Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="SCRIPT.js"></script>
+
+    <!-- BACKGROUND MUSIC PLAYER -->
+    <div id="musicPlayer" class="music-player">
+        <button id="musicToggle" class="music-toggle" aria-label="Putar/Hentikan musik latar" title="Musik latar">
+            🎵
+        </button>
+        <span id="musicStatus" class="music-status">Musik tradisional Indonesia</span>
+    </div>
+    <audio id="bgMusic" preload="none" loop>
+        <source src="GAMELAN - BACKSOUND MUSIK ETNIK (Nocopyright) - WFS MUSIK.mp3" type="audio/mpeg">
+</body>
+</html>
+
